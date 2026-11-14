@@ -145,17 +145,14 @@ These results demonstrate spatial differences in vegetation greenness patterns a
 
 ## 7. Visual Outputs
 
-The project generates the following outputs:
+The project produced the following visual outputs:
 
-- Annual NDVI maps (2019–2025).
-- Annual EVI maps (2019–2025).
-- State-wide temporal trend chart.
-- LGA-level NDVI heatmap.
-- LGA-level EVI heatmap.
-- 2019–2025 NDVI endpoint comparison.
-- Annual NDVI animation.
+- **Annual NDVI animation (2019–2025):** A temporal visualisation of vegetation greenness across Lagos State.
+- **LGA-level NDVI heatmap:** Annual distribution of mean NDVI values across the 20 LGAs.
+- **LGA-level EVI heatmap:** Annual distribution of mean EVI values across the 20 LGAs.
+- **State-wide vegetation trend chart:** Comparison of annual mean NDVI and EVI values.
 
-Selected maps, charts and the animation are presented on the accompanying portfolio website.
+The animation and charts complement the statistical datasets by communicating temporal patterns and spatial differences across Lagos State.
 
 ## 8. Tools and Technologies
 
@@ -185,12 +182,29 @@ The workflow also demonstrates how remote sensing and data science can be integr
 
 ## 11. Repository Contents
 
-The repository will contain:
+The repository is organised as follows:
 
-- `README.md` — Project documentation.
-- `notebooks/` — Google Colab notebooks and exported analysis code.
-- `outputs/` — Selected maps, charts and statistical outputs.
-- `animation/` — Final annual NDVI animation or a link to the hosted video.
+| Directory / File | Description |
+|---|---|
+| `README.md` | Project overview, objectives, findings and repository guide |
+| `docs/methodology.md` | Detailed analytical methodology |
+| `docs/data_dictionary.md` | Dataset variables, structure and interpretation |
+| `notebooks/` | Google Colab analysis notebook |
+| `outputs/charts/` | NDVI heatmap, EVI heatmap and state-wide trend chart |
+| `outputs/data/` | LGA-level and state-level CSV datasets |
+| `animation/` | Final annual NDVI animation |
+
+### Key Resources
+
+- [Methodology](docs/methodology.md)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Analysis Notebook](notebooks/Lagos_Vegetation_Monitoring_2019_2025.ipynb)
+- [NDVI Heatmap](outputs/charts/Lagos_LGA_NDVI_Heatmap.png)
+- [EVI Heatmap](outputs/charts/Lagos_LGA_EVI_Heatmap.png)
+- [State-wide Trend Chart](outputs/charts/Lagos_State_NDVI_EVI_Trend.png)
+- [LGA Vegetation Statistics](outputs/data/Lagos_LGA_Vegetation_Statistics_2019_2025.csv)
+- [State Vegetation Trends](outputs/data/Lagos_State_Vegetation_Trends_2019_2025.csv)
+- [Annual NDVI Animation](animation/Lagos_NDVI_Animation_2019_2025_Enhanced.mp4)
 
 ## 12. Author
 
